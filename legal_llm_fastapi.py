@@ -43,7 +43,22 @@ corpus_resource_names = [
     "projects/finllm-463312/locations/us-central1/ragCorpora/6917529027641081856",
     "projects/finllm-463312/locations/us-central1/ragCorpora/3458764513820540928",
     "projects/finllm-463312/locations/us-central1/ragCorpora/5188146770730811392",
-    "projects/finllm-463312/locations/us-central1/ragCorpora/1729382256910270464"
+    "projects/finllm-463312/locations/us-central1/ragCorpora/1729382256910270464",
+    "projects/finllm-463312/locations/us-central1/ragCorpora/8646911284551352320",
+    "projects/finllm-463312/locations/us-central1/ragCorpora/6052837899185946624",
+    "projects/finllm-463312/locations/us-central1/ragCorpora/864691128455135232",
+    "projects/finllm-463312/locations/us-central1/ragCorpora/7782220156096217088",
+    "projects/finllm-463312/locations/us-central1/ragCorpora/4323455642275676160",
+    "projects/finllm-463312/locations/us-central1/ragCorpora/4755801206503243776",
+    "projects/finllm-463312/locations/us-central1/ragCorpora/1297036692682702848",
+    "projects/finllm-463312/locations/us-central1/ragCorpora/8214565720323784704",
+    "projects/finllm-463312/locations/us-central1/ragCorpora/3026418949592973312",
+    "projects/finllm-463312/locations/us-central1/ragCorpora/6485183463413514240",
+    "projects/finllm-463312/locations/us-central1/ragCorpora/432345564227567616",
+    "projects/finllm-463312/locations/us-central1/ragCorpora/7349874591868649472",
+    "projects/finllm-463312/locations/us-central1/ragCorpora/3891110078048108544",
+    "projects/finllm-463312/locations/us-central1/ragCorpora/5620492334958379008",
+    "projects/finllm-463312/locations/us-central1/ragCorpora/2161727821137838080"
 ]
 
 # Verify corpora exist with better error handling
