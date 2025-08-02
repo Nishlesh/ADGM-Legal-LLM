@@ -138,6 +138,27 @@ def generate_rag_response(user_query: str) -> str:
     """
     if not user_query:
         return "Please enter a query."
+    full_prompt_1 = f"""
+
+You are an expert legal assistant specializing in financial and business law. Your task is to provide a comprehensive and accurate answer to the following legal question, drawing primarily from your knowledge and, crucially, **integrating relevant information retrieved from the provided RAG corpus.**
+
+**Strictly adhere to the specified template.** Ensure all sections are present and clearly labeled. If the jurisdiction of the query falls outside of ADGM, you *must* state "I don't know" in the "Jurisdiction" section and then continue to fill out the remaining sections with "N/A" where applicable, *except* for "Information from the corpus," which should reflect if any *irrelevant* information was retrieved.
+Align all the given headings to the center.
+---
+Legal Question: {user_query}
+---
+
+**Response Template for Each Answer:**
+
+Topic Title: 
+Jurisdiction: 
+Summary / Overview:
+Relevant Law / Statutes: 
+Analysis / Reasoning: 
+Risks / Considerations: 
+[Align to the centre] Actionable Steps / Recommendations: 
+References / Citations: [Include hyperlinks to statutes, regulations, rules, and judgments. Format: [Title](URL)]
+"""
 
     try:
         response = rag_model.generate_content(
