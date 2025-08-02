@@ -104,8 +104,8 @@ else:
 
 # --- Initialize the Generative Model ---
 rag_model = GenerativeModel(
-    model_name="gemini-2.0-flash-001",  # Updated to working model
-    tools=rag_tools
+    model_name="gemini-2.5-pro",  # Updated to working model
+    tools=[] #rag_tools
 )
 
 # FastAPI app
@@ -162,7 +162,7 @@ References / Citations: [Include hyperlinks to statutes, regulations, rules, and
 
     try:
         response = rag_model.generate_content(
-            user_query,
+            full_prompt_1,
             generation_config=GenerationConfig(
                 max_output_tokens=2048,  # Increased for better responses
                 temperature=0.3,        # Balanced creativity
