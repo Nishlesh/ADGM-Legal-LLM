@@ -156,7 +156,7 @@ Summary / Overview:
 Relevant Law / Statutes: 
 Analysis / Reasoning: 
 Risks / Considerations: 
-[Align to the centre] Actionable Steps / Recommendations: 
+Actionable Steps / Recommendations: 
 References / Citations: [Include hyperlinks to statutes, regulations, rules, and judgments. Format: [Title](URL)]
 """
 
